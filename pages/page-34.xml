@@ -1,4 +1,6 @@
-<page><agent text="minha nova page" />
+<page>
+  
+  <agent text="minha nova page" />
 <agents />
   
 </page>
