@@ -1,7 +1,41 @@
 <fable>
-    adkasjhdkjahsd
-    asdkajshdkasdhkajshdkasjhdkjashd
-    <page>
-      asdklaskjdlaskjd
-    </page>
+  <!-- propriedades globais -->
+  <property name="score" default="0"/>
+  <property name="has_key" default="False"/>
+
+  <!-- página de introdução -->
+  <page id="intro" bg="sky.png" bg_music="intro.mp3">
+    <agent
+      id="hero"
+      image="hero.png"
+      x="100"
+      y="200"
+      on_click="score = score + 10"/>
+  </page>
+
+  <!-- página principal -->
+  <page id="main" bg="forest.png" bg_music="forest.mp3">
+    <!-- só aparece se o jogador já tiver pontos suficientes -->
+    <agent
+      id="key"
+      image="key.png"
+      x="400"
+      y="300"
+      *if="score >= 10"
+      on_click="has_key = True"/>
+
+    <!-- porta trancada/destrancada via duas tags agent -->
+    <agent
+      id="door"
+      image="door_closed.png"
+      x="500"
+      y="200"
+      *if="not has_key"/>
+    <agent
+      id="door"
+      image="door_open.png"
+      x="500"
+      y="200"
+      *if="has_key"/>
+  </page>
 </fable>
