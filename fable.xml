@@ -8,7 +8,9 @@
       id="hero"
       image="hero.png"
       x="100"
+      
       y="200"
+      
       on_click="score = score + 10"
     />
   </page>
