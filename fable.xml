@@ -1,10 +1,8 @@
 <fable>
-  <!-- propriedades globais -->
   <property name="score" default="0"/>
   <property name="has_key" default="False"/>
   
 
-  <!-- pÃÂ¡gina de introduÃÂ§ÃÂ£o -->
   <page id="intro" bg="sky.png" bg_music="intro.mp3">
     <agent
       id="hero"
@@ -15,9 +13,7 @@
     />
   </page>
 
-  <!-- pÃÂ¡gina principal -->
   <page id="main" bg="forest.png" bg_music="forest.mp3">
-    <!-- sÃÂ³ aparece se score >= 10 -->
     <agent
       id="key"
       image="key.png"
@@ -28,7 +24,6 @@
       
       />
 
-    <!-- porta trancada vs destrancada -->
     <agent
       id="door"
       image="door_closed.png"
@@ -43,7 +38,6 @@
       fab-if="has_key"/>
   </page>
 
-  <!-- exemplo de loop: renderiza agentes definidos em JS -->
   <page id="gallery" bg="gallery.png">
     <container fab-for="npc in npcs">
       <agent
