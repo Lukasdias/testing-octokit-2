@@ -15,27 +15,39 @@
 
   <!-- página principal -->
   <page id="main" bg="forest.png" bg_music="forest.mp3">
-    <!-- só aparece se o jogador já tiver pontos suficientes -->
+    <!-- só aparece se score >= 10 -->
     <agent
       id="key"
       image="key.png"
       x="400"
       y="300"
-      *if="score >= 10"
+      fab-if="score &gt;= 10"
       on_click="has_key = True"/>
 
-    <!-- porta trancada/destrancada via duas tags agent -->
+    <!-- porta trancada vs destrancada -->
     <agent
       id="door"
       image="door_closed.png"
       x="500"
       y="200"
-      *if="not has_key"/>
+      fab-if="not has_key"/>
     <agent
       id="door"
       image="door_open.png"
       x="500"
       y="200"
-      *if="has_key"/>
+      fab-if="has_key"/>
+  </page>
+
+  <!-- exemplo de loop: renderiza agentes definidos em JS -->
+  <page id="gallery" bg="gallery.png">
+    <container fab-for="npc in npcs">
+      <agent
+        id="{{npc.id}}"
+        image="{{npc.image}}"
+        x="{{npc.x}}"
+        y="{{npc.y}}"
+        fab-if="npc.visible"/>
+    </container>
   </page>
 </fable>
