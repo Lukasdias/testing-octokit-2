@@ -13,10 +13,16 @@
     />
   </page>
 
+  <page>
+    <agents 
+      image='key.png' />
+  </page>
+
   <page id="main" bg="forest.png" bg_music="forest.mp3">
     <agent
       id="key"
       image="key.png"
+       
       x="400"
       y="300"
       fab-if="score &gt;= 10"
