@@ -3,19 +3,20 @@
   <property name="score" default="0"/>
   <property name="has_key" default="False"/>
 
-  <!-- página de introdução -->
+  <!-- pÃ¡gina de introduÃ§Ã£o -->
   <page id="intro" bg="sky.png" bg_music="intro.mp3">
     <agent
       id="hero"
       image="hero.png"
       x="100"
       y="200"
-      on_click="score = score + 10"/>
+      on_click="score = score + 10"
+    />
   </page>
 
-  <!-- página principal -->
+  <!-- pÃ¡gina principal -->
   <page id="main" bg="forest.png" bg_music="forest.mp3">
-    <!-- só aparece se score >= 10 -->
+    <!-- sÃ³ aparece se score >= 10 -->
     <agent
       id="key"
       image="key.png"
