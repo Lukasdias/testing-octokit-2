@@ -1,8 +1,6 @@
 <fable>
   <property name="score" default="0"/>
   <property name="has_key" default="False"/>
-  
-
   <page id="intro" bg="sky.png" bg_music="intro.mp3">
     <agent
       id="hero"
