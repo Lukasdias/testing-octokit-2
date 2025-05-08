@@ -1,7 +1,24 @@
 <fable>
-  <property name="score" default="0"/>
-  <property name="has_key" default="False"/>
-  <intro />
-  <main />
-  <gallery />
+  <!-- um contador simples -->
+  <property name="count" default="0"/>
+
+  <!-- página única que mostra o contador e um botão clicável -->
+  <page id="counter" bg_color="#f0f0f0">
+    <!-- imagem que, ao ser clicada, incrementa `count` -->
+    <agent
+      id="button"
+      image="hero.png"
+      x="350"
+      y="250"
+      width="100"
+      height="100"
+      on_click="count = count + 1"/>
+
+    <!-- texto que exibe o valor atual de `count` -->
+    <agent
+      id="display"
+      text="{{count}}"
+      x="380"
+      y="100"/>
+  </page>
 </fable>
