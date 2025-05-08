@@ -1,5 +1,6 @@
 <fable>
   <property name="count" default="25"/>
+  <property name="count2" default="10" />
   <property name="MAX" default="2" />
   <page id="counter" bg_color="#fff">
     <agent
