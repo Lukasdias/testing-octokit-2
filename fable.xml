@@ -1,6 +1,4 @@
 <fable>
   <property name="count" default="0"/>
-
   <!-- <click-demo /> -->
-  <page-transition />
 </fable>
