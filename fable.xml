@@ -2,9 +2,9 @@
   <!-- contador inicial -->
   <property name="count" default="0"/>
 
-  <!-- página única -->
+  <!-- pÃ¡gina Ãºnica -->
   <page id="counter" bg_color="#fff">
-    <!-- botão: imagem clicável que incrementa `count` -->
+    <!-- botÃ£o: imagem clicÃ¡vel que incrementa `count` -->
     <agent
       id="button"
       image="hero.png"
@@ -13,7 +13,7 @@
       width="100"
       height="100"
       on_click="count = count + 1"/>
-    <!-- exibição do valor atual de `count` -->
+    <!-- exibiÃ§Ã£o do valor atual de `count` -->
     <agent
       id="display"
       text="Count: {{ count }}"
