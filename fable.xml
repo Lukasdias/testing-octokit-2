@@ -17,9 +17,11 @@
     <!-- texto que exibe o valor atual de `count` -->
     <agent
       id="display"
-      text="{{count}}"
+      text="{{ count }}"
       x="0"
-      y="100"/>
+      y="100" 
+      color='blue'
+      />
     
   </page>
 </fable>
