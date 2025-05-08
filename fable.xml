@@ -1,4 +1,4 @@
 <fable>
   <property name="count" default="0"/>
-  <!-- <click-demo /> -->
+  <click-demo />
 </fable>
