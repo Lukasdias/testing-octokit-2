@@ -8,7 +8,6 @@
       x="100"
       y="225"
       width="200"
-      draggable="true"
       on_click="score = score + 10"
     />
   </page>
