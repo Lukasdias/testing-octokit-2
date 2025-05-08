@@ -1,4 +1,4 @@
- <page id="gallery" bg="gallery.png">
+ <page id="gallery" bg="blue">
     <container fab-for="npc in npcs">
       <agent
         id="{{npc.id}}"
