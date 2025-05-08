@@ -10,7 +10,6 @@
       width="100"
       height="100"
       on_click="count = count * MAX; count2 += 20"
-      draggable="true"
       />
     <agent
       id="display"
