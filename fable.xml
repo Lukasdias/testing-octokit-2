@@ -1,4 +1,7 @@
 <fable>
   <property name="count" default="0"/>
   <click-demo />
+  <page id="page-2">
+    <agent text="hahahaha" color="block"></agent>
+  </page>
 </fable>
