@@ -3,7 +3,7 @@
   <property name="count" default="0"/>
 
   <!-- página única que mostra o contador e um botão clicável -->
-  <page id="counter" bg_color="#f0f0f0">
+  <page id="counter" bg_color="red">
     <!-- imagem que, ao ser clicada, incrementa `count` -->
     <agent
       id="button"
@@ -18,7 +18,8 @@
     <agent
       id="display"
       text="{{count}}"
-      x="380"
+      x="0"
       y="100"/>
+    
   </page>
 </fable>
