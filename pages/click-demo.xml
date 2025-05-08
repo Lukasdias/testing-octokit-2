@@ -10,5 +10,6 @@
       id="display"
       text="Count: {{ count }}"
       x="320" y="100"
-      font_size="24px" color="#333"/>
+      font_size="24px" color="#333"
+    />
 </page>
