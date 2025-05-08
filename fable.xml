@@ -1,10 +1,6 @@
 <fable>
-  <!-- contador inicial -->
   <property name="count" default="25"/>
-
-  <!-- pÃ¡gina Ãºnica -->
   <page id="counter" bg_color="#fff">
-    <!-- botÃ£o: imagem clicÃ¡vel que incrementa `count` -->
     <agent
       id="button"
       image="hero.png"
@@ -13,7 +9,6 @@
       width="100"
       height="100"
       on_click="count = count + 1"/>
-    <!-- exibiÃ§Ã£o do valor atual de `count` -->
     <agent
       id="display"
       text="Count: {{ count }}"
