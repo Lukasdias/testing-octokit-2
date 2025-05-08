@@ -13,6 +13,7 @@
       font_size="24px" color="#333"/>
 
     <page id="click-demo" bg_color="#fafafa">
+      
     <agent
       id="button"
       image="button.png"
