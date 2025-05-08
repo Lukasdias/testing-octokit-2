@@ -2,6 +2,8 @@
   <property name="score" default="0"/>
   <property name="has_key" default="False"/>
   <intro />
+  
   <main />
+  
   <gallery />
 </fable>
