@@ -1,6 +1,10 @@
-<page>
-  <agent text="minha nova page" />
-  
-  <agents />
-  
+<page id="intro" bg_color="red" bg_music="adventure.mp3">
+    <agent
+      id="hero"
+      image="hero.png"
+      x="100"
+      y="225"
+      width="200"
+      height="100"
+    />
 </page>
