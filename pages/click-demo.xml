@@ -6,6 +6,16 @@
       width="100" height="100"
       on_click="count = count + 1"/>
 
+   <agent
+      id="button"
+      image="button.png"
+      x="350" y="250"
+      width="100" height="100"
+      on_click="goTo('page2')"/>
+   
+
+   
+
     <agent
       id="display"
       text="Count: {{ count }}"
