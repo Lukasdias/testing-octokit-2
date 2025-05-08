@@ -3,9 +3,7 @@
   <property name="count" default="0"/>
   <property name="name" default="lukas" />
 
-  <!-- pÃ¡gina Ãºnica que mostra o contador e um botÃ£o clicÃ¡vel -->
   <page id="counter" bg_color="red">
-    <!-- imagem que, ao ser clicada, incrementa `count` -->
     <agent
       id="button"
       image="hero.png"
