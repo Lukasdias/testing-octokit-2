@@ -20,7 +20,7 @@
       color="#000"
     />
     <agent
-      id="display2"
+      id="display"
       text="Count: {{ count2 }}"
       x="320"
       y="140"
