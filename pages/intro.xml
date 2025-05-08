@@ -2,7 +2,9 @@
     <agent
       id="hero"
       image="hero.png"
-      x="100"
+      x="200"
       y="100"
+      width="50"
+      height="50"
     />
 </page>
