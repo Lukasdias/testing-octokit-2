@@ -3,8 +3,8 @@
       id="hero"
       image="hero.png"
       x="100"
-      y="225"
-      width="200"
-      height="100"
+      y="100"
+      width="200px"
+      height="200px"
     />
 </page>
