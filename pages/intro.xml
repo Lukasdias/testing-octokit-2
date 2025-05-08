@@ -3,6 +3,6 @@
       id="hero"
       image="hero.png"
       x="200"
-      y="200"
+      y="150"
     />
 </page>
