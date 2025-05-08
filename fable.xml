@@ -1,8 +1,9 @@
 <fable>
   <!-- um contador simples -->
   <property name="count" default="0"/>
+  <property name="name" default="lukas" />
 
-  <!-- página única que mostra o contador e um botão clicável -->
+  <!-- pÃ¡gina Ãºnica que mostra o contador e um botÃ£o clicÃ¡vel -->
   <page id="counter" bg_color="red">
     <!-- imagem que, ao ser clicada, incrementa `count` -->
     <agent
@@ -17,7 +18,7 @@
     <!-- texto que exibe o valor atual de `count` -->
     <agent
       id="display"
-      text="{{ count }}"
+      text="{{ name }}"
       x="0"
       y="100" 
       color='blue'
