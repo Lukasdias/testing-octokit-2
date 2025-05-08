@@ -14,10 +14,10 @@
     <agent
       id="display"
       text="Count: {{ count }}"
-      x="0"
+      x="300"
       y="50"
       font_size="32px"
-      color="#000"
+      color="red"
     />
   </page>
 </fable>
