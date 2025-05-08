@@ -1,4 +1,4 @@
-<page id="main" bg="forest.png" bg_music="forest.mp3">
+<page id="main">
     <agent
       id="key"
       image="key.png"
