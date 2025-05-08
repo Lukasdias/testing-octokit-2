@@ -1,56 +1,7 @@
 <fable>
   <property name="score" default="0"/>
   <property name="has_key" default="False"/>
-  <page id="intro" bg_color="red" bg_music="adventure.mp3">
-    <agent
-      id="hero"
-      image="hero.png"
-      x="100"
-      y="225"
-      width="200"
-      height="100"
-    />
-  </page>
-
-  <page>
-    <agents 
-      image='key.png' />
-  </page>
-
-  <page id="main" bg="forest.png" bg_music="forest.mp3">
-    <agent
-      id="key"
-      image="key.png"
-       
-      x="400"
-      y="300"
-      fab-if="score &gt;= 10"
-      on_click="has_key = True"
-      
-      />
-
-    <agent
-      id="door"
-      image="door_closed.png"
-      x="500"
-      y="200"
-      fab-if="not has_key"/>
-    <agent
-      id="door"
-      image="door_open.png"
-      x="500"
-      y="200"
-      fab-if="has_key"/>
-  </page>
-
-  <page id="gallery" bg="gallery.png">
-    <container fab-for="npc in npcs">
-      <agent
-        id="{{npc.id}}"
-        image="{{npc.image}}"
-        x="{{npc.x}}"
-        y="{{npc.y}}"
-        fab-if="npc.visible"/>
-    </container>
-  </page>
+  <intro />
+  <main />
+  <gallery />
 </fable>
