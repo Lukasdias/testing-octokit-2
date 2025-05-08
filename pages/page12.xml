@@ -1,4 +1,10 @@
-<page>
-    <agent text="Hello Codefab"/>
-  <agents text="testing" /> 
-</page>
+ <page id="gallery" bg="gallery.png">
+    <container fab-for="npc in npcs">
+      <agent
+        id="{{npc.id}}"
+        image="{{npc.image}}"
+        x="{{npc.x}}"
+        y="{{npc.y}}"
+        fab-if="npc.visible"/>
+    </container>
+  </page>
