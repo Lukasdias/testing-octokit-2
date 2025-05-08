@@ -8,7 +8,7 @@
       text="Go to Page 2"
       x="300" y="280"
       font_size="20px" color="blue"
-      on_click="goTo('page2')"/>
+      on_click="goToPage('page2')"/>
   </page>
 
   <page id="page2" bg_color="#fed">
@@ -17,6 +17,6 @@
       text="Back to Page 1"
       x="300" y="280"
       font_size="20px" color="blue"
-      on_click="goTo('page1')"/>
+      on_click="goToPage('page1')"/>
   </page>
 </fable>
