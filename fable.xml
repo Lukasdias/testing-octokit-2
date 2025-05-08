@@ -1,6 +1,6 @@
 <fable>
   <!-- contador inicial -->
-  <property name="count" default="0"/>
+  <property name="count" default="25"/>
 
   <!-- pÃ¡gina Ãºnica -->
   <page id="counter" bg_color="#fff">
