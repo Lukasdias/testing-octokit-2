@@ -1,22 +1,4 @@
 <fable>
   <property name="count" default="0"/>
   <click-demo />
-
-  <page id="page1" bg_color="#def">
-    <agent
-      id="next-btn"
-      text="Go to Page 2"
-      x="300" y="280"
-      font_size="20px" color="blue"
-      on_click="goToPage('page2')"/>
-  </page>
-
-  <page id="page2" bg_color="#fed">
-    <agent
-      id="back-btn"
-      text="Back to Page 1"
-      x="300" y="280"
-      font_size="20px" color="blue"
-      on_click="goToPage('page1')"/>
-  </page>
 </fable>
