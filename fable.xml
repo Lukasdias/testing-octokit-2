@@ -1,5 +1,5 @@
 <fable>
-  <property name="has_key" default="false"/>
+  <property name="count" default="0"/>
   <click-demo />
   <page id="page-2">
     <agent id="title" text="Welcome" color="red" x="200" y="200" />
