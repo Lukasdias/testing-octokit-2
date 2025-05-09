@@ -1,40 +1,9 @@
 <fable>
-  <!-- Estado: o jogador ainda nÃ£o pegou a chave -->
+  <!-- Estado: o jogador ainda nÃÂ£o pegou a chave -->
   <property name="has_key" default="false"/>
+  <click-demo />
 
-  <page id="key-door-demo" bg_color="#fafafa">
-    <!-- InstruÃ§Ã£o -->
-    <agent
-      id="prompt"
-      text="Drag the key onto the door to unlock it"
-      x="50" y="20"
-      font_size="18px"
-      color="red"/>
-
-    <!-- A chave, que pode ser arrastada -->
-    <agent
-      id="key"
-      image="mushroom.png"
-      x="100" y="200"
-      width="50" height="50"
-      draggable="true"/>
-
-    <!-- Porta fechada: aceita sÃ³ a chave, e quando solta marca has_key=true -->
-    <agent
-      id="door-closed"
-      image="door_1.png"
-      x="300" y="180"
-      width="100" height="150"
-      drop_accept="key"
-      on_drop="has_key = true"/>
-
-    <!-- Porta aberta: aparece sÃ³ depois que has_key for true -->
-    <agent
-      id="door-open"
-      image="door_2.png"
-      x="300" y="180"
-      width="100" height="150"
-      show_when="has_key"
-    />
+  <page id="page-2">
+    <agent id="title" text="welcome" color="red" x="200" y="200" />
   </page>
 </fable>
