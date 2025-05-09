@@ -1,9 +1,9 @@
 <fable>
   <property name="count" default="0"/>
-  <click-demo />
+  <click-demo/>
   <page id="page-2">
-    <agent id="title" text="Welcome" color="red" x="200" y="200" />
-    <agent image="door_3.png" x="70" y="80" width="32" height="32" on_click="goToPage('click-demo')" />
-    <agent image="door_1.png" x="100" y="200" width="32" height="32" on_click="goToPage('click-demo')" />
+    <agent id="title" text="Welcome" color="red" x="200" y="200"/>
+    <agent image="door_3.png" x="70" y="80" width="32" height="32" on_click="goToPage('click-demo')"/>
+    <agent image="door_1.png" x="100" y="200" width="32" height="32" on_click="goToPage('click-demo')"/>
   </page>
 </fable>
