@@ -1,9 +1,10 @@
 <fable>
-  <!-- Estado: o jogador ainda nÃÂ£o pegou a chave -->
+  <!-- Estado: o jogador ainda nÃÂÃÂ£o pegou a chave -->
   <property name="has_key" default="false"/>
   <click-demo />
 
   <page id="page-2">
     <agent id="title" text="Welcome" color="red" x="200" y="200" />
+    <agent image="door_3.png" on_click="goToPage('click-demo')" />
   </page>
 </fable>
